@@ -1,0 +1,107 @@
+body {
+  background: linear-gradient(
+        rgba(0, 0, 0, 0.7),
+        rgba(0, 0, 0, 0.7)
+    ),
+    url("resources/tarot_backgrounds/21.\ The\ World.jpeg");
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center 30%;
+  background-repeat: no-repeat;
+}
+
+
+#logo {
+  height: auto;
+  width: 3%;
+  position: absolute;
+  top: 5%;
+  right:  5%;
+}
+
+
+.wrapper {  
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+
+  max-width: 60%;
+  right: 5%;
+  left: 5%;
+
+  
+}
+
+h1 {  
+  color: white;
+  font-family: Georgia;
+  letter-spacing: .3vw;
+  font-size: 7vw;
+  margin: 0;
+  margin-bottom: -2%;
+}
+
+
+h2 {    
+  color: white;
+  font-family: Georgia;
+  font-weight: normal;
+  font-size: 1.7vw;
+  letter-spacing: 1.5px;
+  line-height: 210%;
+  max-width: 95%;
+  margin-bottom: 3vw;
+}
+
+
+#deal_button {
+  color: white;
+  border: 1px solid white;
+  padding: 1vw 2vw;
+  font-family: Georgia;
+  text-decoration: none;  
+  font-size: 2vw;
+  letter-spacing: 1.5px;
+
+  transition: 0.3s;
+} 
+
+#deal_button:hover {
+  color: black;
+  background-color: white;
+  mix-blend-mode: screen;
+}
+
+
+@media only screen and (max-width: 800px) {
+  #logo {
+    width: 5%;
+  }
+  
+  .wrapper {
+    bottom: 10%;
+    top: auto;
+    transform: none;
+    max-width: 90%;
+  }
+  
+  h1 {
+    font-size: 10vw;
+    letter-spacing: .5vw;
+    line-height: 15vw;
+    margin: auto;
+    margin-bottom: 4vw;
+  }
+
+  h2 {
+    font-size: 4vw;
+    max-width: 80%;
+    margin-bottom: 10vw;
+    line-height: 230%;
+  }
+
+  #deal_button {
+    font-size: 5vw;
+    padding: 3vw 6vw;
+  }
+}

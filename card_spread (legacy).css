@@ -1,0 +1,116 @@
+body {
+  display: flex;
+  margin: 0;
+}
+
+#back_button {  
+  position: fixed;
+  top: 5vw;
+  left: 2vw;
+  z-index: 999;
+}
+
+p, h2 {
+  color: white;
+  font-family: Georgia;
+}
+
+.section {
+  flex: 33.33%;
+  padding: 3vw 5.5vw;
+  position: relative;
+  height: 100vw;
+}
+
+.bkg_img {
+  position: fixed;
+  z-index: -999;
+  width: 40vw;
+  height: 110vw;
+  top: -5vw;
+  filter: blur(5px);
+}
+
+.header {
+  margin-bottom: 3vw;
+  font-size: 2.5vw;
+  text-align: center;
+  letter-spacing: 0.2vw;
+  font-weight: normal;
+}
+
+.card_box {
+  margin-bottom: 3vw;
+}
+
+img {
+  max-width: 100%;
+}
+
+.flavor_text {
+  font-size: 1.4vw;
+  line-height: 180%;
+}
+
+
+#past_bkg_img {
+    background: linear-gradient(
+        rgba(0, 0, 0, 0.7),
+        rgba(0, 0, 0, 0.7)
+    ),
+    url("resources/tarot_images/00. The Fool.jpeg");
+  left: -5vw;
+  background-position: center 0;
+  background-repeat: no-repeat;
+}
+
+#present_bkg_img {
+    background: linear-gradient(
+        rgba(0, 0, 0, 0.7),
+        rgba(0, 0, 0, 0.7)
+    ),
+    url("resources/tarot_images/05. The Hierophant.jpeg");
+  left: 33.33vw;
+  background-position: center 0;
+  background-repeat: no-repeat;
+}
+
+#present_flavor_text {
+  margin-bottom: 3vw;
+}
+
+#future_bkg_img {
+    background: linear-gradient(
+        rgba(0, 0, 0, 0.7),
+        rgba(0, 0, 0, 0.7)
+    ),
+    url("resources/tarot_images/17. The Star.jpeg");
+  left: 66.66vw;
+  background-position: center 0;
+  background-repeat: no-repeat;
+}
+
+
+#deal_button {
+  color: white;
+  border: 1px solid white;
+  padding: 1vw 1.5vw;
+  font-family: Georgia;
+  text-decoration: none;  
+  font-size: 1.5vw;
+  margin-top: 2vw;
+  transition: 0.3s;
+  margin-bottom: 3vw;
+
+  position: relative;
+  left: 50%;
+  width: 50%;
+  margin-left: -25%;
+  text-align: center;
+} 
+
+#deal_button:hover {
+  color: black;
+  background-color: white;
+  mix-blend-mode: screen;
+}

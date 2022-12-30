@@ -1,0 +1,119 @@
+body {
+	display: flex;
+	margin: 0;
+}
+
+h2, p {
+	color: white;
+	font-family: Georgia;
+}
+
+img {
+	max-width: 100%;
+}
+
+.card_box {
+	margin-bottom: 3vw;
+}
+
+.flavor_text {
+	font-size: 1.4vw;
+	line-height: 180%;
+}
+
+.header {
+	font-size: 2.5vw;
+	font-weight: normal;
+	letter-spacing: 0.2vw;
+	margin-bottom: 3vw;
+	text-align: center;
+}
+
+.section {
+	padding: 3vw 5.5vw;
+	position: relative;
+  width: 33.33vw;
+}
+
+#back_button {
+  width: 1.5vw;
+	left: 2vw;
+	position: fixed;
+	top: 5vw;
+	z-index: 999;
+}
+
+#deal_button {
+	border: 1px solid white;
+	color: white;
+	font-family: Georgia;
+	font-size: 1.5vw;
+	left: 50%;
+	margin-bottom: 3vw;
+	margin-left: -25%;
+	margin-top: 2vw;
+	padding: 1vw 1.5vw;
+	position: relative;
+	text-align: center;
+	text-decoration: none;
+	transition: 0.3s;
+	width: 50%;
+}
+
+#deal_button:hover {
+	background-color: white;
+	color: black;
+	mix-blend-mode: screen;
+}
+
+#future_section {
+	background: url("resources/tarot_backgrounds_blurred/17.png");
+  background-position: center 0;
+	background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#past_section {
+	background: url("resources/tarot_backgrounds_blurred/00.png");
+  background-attachment: absolute;
+	background-position: center 0;
+	background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#present_section {
+	background: url("resources/tarot_backgrounds_blurred/05.png");
+	background-position: center 0;
+	background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#present_flavor_text {
+	margin-bottom: 3vw;
+}
+
+@media only screen and (max-width: 1096px) {
+  body {
+    display: block;
+  }
+
+  .section {
+    padding: 5vw 20vw;
+    width: auto;
+  }
+
+  .header {
+    font-size: 5vw;
+  }
+
+  .flavor_text {
+    font-size: 3vw;
+  }
+
+  #back_button {
+    top: 8vw;
+    left: 8vw;
+    width: 3vw;
+  }
+  
+}
