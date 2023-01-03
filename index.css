@@ -3,7 +3,7 @@ body {
         rgba(0, 0, 0, 0.7),
         rgba(0, 0, 0, 0.7)
     ),
-    url("resources/tarot_backgrounds/21.\ The\ World.jpeg");
+    url("resources/backgrounds/21_index.jpeg");
   background-size: cover;
   background-attachment: fixed;
   background-position: center 30%;
@@ -63,7 +63,6 @@ h2 {
   font-size: 2vw;
   letter-spacing: 1.5px;
 
-  transition: 0.3s;
 } 
 
 #deal_button:hover {
@@ -79,8 +78,9 @@ h2 {
   }
   
   .wrapper {
-    bottom: 10%;
+    bottom: 10vw;
     top: auto;
+    margin-top: 1vw;
     transform: none;
     max-width: 90%;
   }

@@ -1,0 +1,134 @@
+[
+   {
+      "index":0,
+      "description":"The Fool represents new beginnings, innocence, trust, and the underlying potential for greatness. Perhaps this symbolizes a well-deserved chance to start over, though with a clear understanding that mistakes from the past should not be repeated.",
+      "background_filepath":"resources/backgrounds/00.png",
+      "card_filepath":"resources/cards/00.jpeg"
+   },
+   {
+      "index":1,
+      "description":"The Magician symbolizes manifestation, creative expression and skill. He is a source of power and the card encourages us to tap into our own natural abilities in order to bring our desires into being.",
+      "background_filepath":"resources/backgrounds/01.png",
+      "card_filepath":"resources/cards/01.jpeg"
+   },
+   {
+      "index":2,
+      "description":"The High Priestess is a symbol of inner wisdom, spiritual knowledge and hidden truths. She encourages us to calm our minds and turn inwards to access a deep and abiding understanding of the world.",
+      "background_filepath":"resources/backgrounds/02.png",
+      "card_filepath":"resources/cards/02.jpeg"
+   },
+   {
+      "index":3,
+      "description":"The Empress symbolizes abundance, nurturing and fertility. She is associated with motherhood and nature, and encourages us to sustain ourselves by attending to our sensory needs.",
+      "background_filepath":"resources/backgrounds/03.png",
+      "card_filepath":"resources/cards/03.jpeg"
+   },
+   {
+      "index":4,
+      "description":"The Emperor stands for authority, structure and stability. He suggests that we take a more active role in managing our lives, even while grounding ourselves in a stable foundation that supports our growth.",
+      "background_filepath":"resources/backgrounds/04.png",
+      "card_filepath":"resources/cards/04.jpeg"
+   },
+   {
+      "index":5,
+      "description":"The Hierophant represents tradition, conformity and organized religion. He teaches us to respect the rules and regulations of society, though we may also need to think for ourselves in order to discover our own paths in life.",
+      "background_filepath":"resources/backgrounds/05.png",
+      "card_filepath":"resources/cards/05.jpeg"
+   },
+   {
+      "index":6,
+      "description":"The Lovers symbolize relationships of all kinds: partnerships built on compatibility or sexual attraction but also the connection between yourself and something you love. This card encourages us to look for balance and harmony within our bonds.",
+      "background_filepath":"resources/backgrounds/06.png",
+      "card_filepath":"resources/cards/06.jpeg"
+   },
+   {
+      "index":7,
+      "description":"The Chariot represents determination, drive and ambition. This card helps us recognize that we have the power to bring our goals into reality with determination, so long as we move forward relentlessly.",
+      "background_filepath":"resources/backgrounds/07.png",
+      "card_filepath":"resources/cards/07.jpeg"
+   },
+   {
+      "index":8,
+      "description":"Strength symbolizes physical, emotional and spiritual strength. This card is a reminder that we can face any challenge no matter how painful, provided we understand that pain will in turn make us stronger.",
+      "background_filepath":"resources/backgrounds/08.png",
+      "card_filepath":"resources/cards/08.jpeg"
+   },
+   {
+      "index":9,
+      "description":"The Hermit symbolizes introspection, independence and detachment from material things. He encourages us to step back from the world in order to gain a deeper insight into our own lives.",
+      "background_filepath":"resources/backgrounds/09.png",
+      "card_filepath":"resources/cards/09.jpeg"
+   },
+   {
+      "index":10,
+      "description":"The Wheel of Fortune symbolizes luck and chance. We must allow ourselves to take risks, to bear uncertainty and to accept in perpetuity that some things are simply outside of our control.",
+      "background_filepath":"resources/backgrounds/10.png",
+      "card_filepath":"resources/cards/10.jpeg"
+   },
+   {
+      "index":11,
+      "description":"Justice symbolizes balance and equilibrium. Being an adult entails taking responsibility for our actions-- even the actions of others should their choices infringe upon our lives. Justice is a force created and maintained by human will.",
+      "background_filepath":"resources/backgrounds/11.png",
+      "card_filepath":"resources/cards/11.jpeg"
+   },
+   {
+      "index":12,
+      "description":"The Hanged Man tells us that sometimes small sacrifices are required to benefit the larger goal. Despite any short-term discomfort, this card symbolizes that sometimes surrendering can be the strength of will we need.",
+      "background_filepath":"resources/backgrounds/12.png",
+      "card_filepath":"resources/cards/12.jpeg"
+   },
+   {
+      "index":13,
+      "description":"Death symbolizes transformation. Here is a reminder to allow ourselves and our lives to move through cycles with patience and acceptance as these changes often provide us with opportunities for growth.",
+      "background_filepath":"resources/backgrounds/13.png",
+      "card_filepath":"resources/cards/13.jpeg"
+   },
+   {
+      "index":14,
+      "description":"Temperance encourages moderation in all things. The temptation is often to try and force outcomes, though this usually ends in exhaustion. Temperance teaches us to be patient and trust that the process of life will lead us our goal.",
+      "background_filepath":"resources/backgrounds/14.png",
+      "card_filepath":"resources/cards/14.jpeg"
+   },
+   {
+      "index":15,
+      "description":"The Devil symbolizes darkness, temptation and manipulation. The card urges one to recognize their own weaknesses or fragilities so as not get pulled into a situation where you may become puppet to another’s will.",
+      "background_filepath":"resources/backgrounds/15.png",
+      "card_filepath":"resources/cards/15.jpeg"
+   },
+   {
+      "index":16,
+      "description":"The Tower represents unexpected catastrophe and disruption. The tower symbolizes that sometimes our most cherished plans have to go up in flames before we can deconstruct them and rebuild something even better.",
+      "background_filepath":"resources/backgrounds/16.png",
+      "card_filepath":"resources/cards/16.jpeg"
+   },
+   {
+      "index":17,
+      "description":"The Star encourages us to trust in ourselves when it feels like the entire universe is against you. This card helps us find a steady source of inspiration and hope, so we can bring our dreams into reality.",
+      "background_filepath":"resources/backgrounds/17.png",
+      "card_filepath":"resources/cards/17.jpeg"
+   },
+   {
+      "index":18,
+      "description":"The Moon symbolizes illusions and deception. The card encourages us to be honest with ourselves about what is really going on in order to break through any walls that stand between us and the truth.",
+      "background_filepath":"resources/backgrounds/18.png",
+      "card_filepath":"resources/cards/18.jpeg"
+   },
+   {
+      "index":19,
+      "description":"The Sun reconnects us with joyfulness and promises a new start. The joy of life's natural cycles, a reminder that anything is possible, and the courage to take risks are all represented underneath the Sun's warm glow.",
+      "background_filepath":"resources/backgrounds/19.png",
+      "card_filepath":"resources/cards/19.jpeg"
+   },
+   {
+      "index":20,
+      "description":"Judgment symbolizes a call for inner reflection and forgiveness. This card encourages us to accept who we are and whatever choices we have made, allowing ourselves the freedom bring closure to our pasts.",
+      "background_filepath":"resources/backgrounds/20.png",
+      "card_filepath":"resources/cards/20.jpeg"
+   },
+   {
+      "index":21,
+      "description":"The World stands for a journey's completion and celebration of one’s experience. It is a symbol of success that reminds us that we can achieve anything if we stay focused on our goals while remaining connected to the larger unseen forces.",
+      "background_filepath":"resources/backgrounds/21.png",
+      "card_filepath":"resources/cards/21.jpeg"
+   }
+]

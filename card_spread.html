@@ -10,38 +10,37 @@
     <link rel="stylesheet" href="card_spread.css">
   </head>
 
-
   <body>
     <a href="."><img id=back_button src="resources/back_button.png"></a>
 
-    <div id=past_bkg_img class=bkg_img></div>
     <div id=past_section class=section>
       <h2 class=header>Past</h2>
       <div class=card_box>
-        <img src="resources/tarot_cards/00.-The-Fool.jpeg">
+        <img id=past_img>
       </div>
-      <p id=test class=flavor_text>Lorem ipsum dolor sit amet, conser adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullam corper.</p> 
+      <p id=past_description class=description>Lorem ipsum dolor sit amet, conser adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullam corper.</p> 
     </div>
 
-    <div id=present_bkg_img class=bkg_img></div>
     <div id=present_section class=section>
       <h2 class=header>Present</h2>
       <div class=card_box>
-        <img src="resources/tarot_cards/05.-The-Hierophant.jpeg">
+        <img id=present_img>
       </div>
-      <p class=flavor_text id=present_flavor_text>Vitae sapien pellentesque habitant morbi tristique senectus. Enim nulla aliquet porttitor lacus luctus accumsan tortor. Aenean sed adipiscing diam donec adipiscing. Accumsan tortor posuere ac ut consequat.</p>
-      <a id=deal_button href="card_spread.html">Deal again.</a>
+      <p class=description id=present_description>Vitae sapien pellentesque habitant morbi tristique senectus. Enim nulla aliquet porttitor lacus luctus accumsan tortor. Aenean sed adipiscing diam donec adipiscing. Accumsan tortor posuere ac ut consequat.</p>
+      <a id=present_deal_button class=deal_button href="card_spread.html">Deal again.</a>
     </div>
 
-    <div id=future_bkg_img class=bkg_img></div>
     <div id=future_section class=section>
       <h2 class=header>Future</h2>
       <div class=card_box>
-        <img src="resources/tarot_cards/17.-The-Star.jpeg">
+        <img id=future_id>
       </div>
-      <p class=flavor_text>Pellentesque eu tincidunt tortor aliquam nulla. Ut pharetra sit amet aliquam. Sit amet consectetur adipiscing elit ut aliquam purus sit amet. Risus pretium quam vulputate dignissim suspendisse in est ante in.</p>
+      <p class=description id=future_description>Pellentesque eu tincidunt tortor aliquam nulla. Ut pharetra sit amet aliquam. Sit amet consectetur adipiscing elit ut aliquam purus sit amet. Risus pretium quam vulputate dignissim suspendisse in est ante in.</p>
+      <div class=centering_div>
+        <a id=future_deal_button class=deal_button href="card_spread.html">Deal again.</a>
+      </div>
     </div>
-    
+      
     <script src="card_spread.js"></script>
     
   </body>

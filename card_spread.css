@@ -13,12 +13,36 @@ img {
 }
 
 .card_box {
+  background-color: black;
+  width: 100%;
+  aspect-ratio: 1 / 1;
 	margin-bottom: 3vw;
 }
 
-.flavor_text {
+.centering_div {
+  text-align: center;
+}
+
+.deal_button {
+	border: 1px solid white;
+	color: white;
+	font-family: Georgia;
+	position: relative;
+	text-align: center;
+	text-decoration: none;
+	width: 50%;
+}
+
+.deal_button:hover {
+	background-color: white;
+	color: black;
+	mix-blend-mode: screen;
+}
+
+.description {
 	font-size: 1.4vw;
 	line-height: 180%;
+	margin-bottom: 2vw;
 }
 
 .header {
@@ -43,7 +67,94 @@ img {
 	z-index: 999;
 }
 
-#deal_button {
+#future_section {
+	background: black;
+  background-position: center 0;
+	background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#future_deal_button {
+  display: inline-block;
+  visibility: hidden;
+  font-size: 20px;
+  padding: 8px 12px;
+  margin: 0 auto;
+}
+
+#past_section {
+	background: black;
+  background-attachment: absolute;
+	background-position: center 0;
+	background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#present_deal_button {
+	font-size: 1.5vw;
+	left: 50%;
+	margin-bottom: 3vw;
+	margin-left: -25%;
+	margin-top: 2vw;
+	padding: 1vw 1.5vw;
+}
+
+
+#present_section {
+	background: black;
+	background-position: center 0;
+	background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+
+@media only screen and (max-width: 1096px) {
+  body {
+    display: block;
+  }
+  
+  img {
+    max-width: 100%;
+  }
+
+  .section {
+    padding: 5vw 20vw;
+    width: auto;
+  }
+
+  .header {
+    font-size: 25px;
+  }
+
+  .description {
+    font-size: 15px;
+  }
+
+  #future_deal_button {
+    visibility: visible;
+  }
+
+  #future_description {
+  	margin-bottom: 7vw;
+    }
+  
+  #back_button {
+    top: 8vw;
+    left: 8vw;
+    width: 2vw;
+  }
+
+  #present_deal_button {
+    visibility: hidden;
+  }
+
+  #present_description {
+  	margin-bottom: auto;
+  }
+}
+
+/* 
 	border: 1px solid white;
 	color: white;
 	font-family: Georgia;
@@ -58,62 +169,4 @@ img {
 	text-decoration: none;
 	transition: 0.3s;
 	width: 50%;
-}
-
-#deal_button:hover {
-	background-color: white;
-	color: black;
-	mix-blend-mode: screen;
-}
-
-#future_section {
-	background: url("resources/tarot_backgrounds_blurred/17.png");
-  background-position: center 0;
-	background-repeat: no-repeat;
-  background-size: cover;
-}
-
-#past_section {
-	background: url("resources/tarot_backgrounds_blurred/00.png");
-  background-attachment: absolute;
-	background-position: center 0;
-	background-repeat: no-repeat;
-  background-size: cover;
-}
-
-#present_section {
-	background: url("resources/tarot_backgrounds_blurred/05.png");
-	background-position: center 0;
-	background-repeat: no-repeat;
-  background-size: cover;
-}
-
-#present_flavor_text {
-	margin-bottom: 3vw;
-}
-
-@media only screen and (max-width: 1096px) {
-  body {
-    display: block;
-  }
-
-  .section {
-    padding: 5vw 20vw;
-    width: auto;
-  }
-
-  .header {
-    font-size: 5vw;
-  }
-
-  .flavor_text {
-    font-size: 3vw;
-  }
-
-  #back_button {
-    top: 8vw;
-    left: 8vw;
-    width: 3vw;
-  }
-  
-}
+ */
