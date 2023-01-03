@@ -53,6 +53,10 @@ h2 {
   margin-bottom: 3vw;
 }
 
+h2 a {
+  color: white;
+}
+
 
 #deal_button {
   color: white;

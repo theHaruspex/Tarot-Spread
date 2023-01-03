@@ -1,12 +1,10 @@
 const past_section = document.getElementById("past_section")
 const present_section = document.getElementById("present_section")
 const future_section = document.getElementById("future_section")
-
 const header_elements = document.getElementsByClassName("header")
 const card_box_elements = document.getElementsByClassName("card_box")
 const description_elements = document.getElementsByClassName("description")
 const deal_button_elements = document.getElementsByClassName("deal_button")
-
 
 
 function generate_random_integer(min, max) {
@@ -73,7 +71,6 @@ function transition_flow() {
   transistion_elements_array(card_box_elements, 5000)
   transistion_elements_array(header_elements, 6000)
   transistion_elements_array(description_elements, 6000)
-
   transistion_elements_array(deal_button_elements, 8000)
 }
 
