@@ -1,6 +1,7 @@
 body {
 	display: flex;
 	margin: 0;
+  background: black;
 }
 
 h2, p {
@@ -10,6 +11,10 @@ h2, p {
 
 img {
 	max-width: 100%;
+}
+
+img, .card_box, .header, .description, .deal_button, .section {
+  visibility: hidden;
 }
 
 .card_box {
@@ -99,6 +104,9 @@ img {
 	padding: 1vw 1.5vw;
 }
 
+#present_description {
+  margin-bottom: 3vw;
+}
 
 #present_section {
 	background: black;
@@ -153,20 +161,3 @@ img {
   	margin-bottom: auto;
   }
 }
-
-/* 
-	border: 1px solid white;
-	color: white;
-	font-family: Georgia;
-	font-size: 1.5vw;
-	left: 50%;
-	margin-bottom: 3vw;
-	margin-left: -25%;
-	margin-top: 2vw;
-	padding: 1vw 1.5vw;
-	position: relative;
-	text-align: center;
-	text-decoration: none;
-	transition: 0.3s;
-	width: 50%;
- */
