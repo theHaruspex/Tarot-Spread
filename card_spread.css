@@ -13,8 +13,8 @@ img {
 	max-width: 100%;
 }
 
-img, .card_box, .header, .description, .deal_button, .section {
-  visibility: hidden;
+.card_box, .header, .description, .deal_button, .section {
+  opacity: 0;
 }
 
 .card_box {

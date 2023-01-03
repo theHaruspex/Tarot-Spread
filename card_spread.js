@@ -3,8 +3,9 @@ const present_section = document.getElementById("present_section")
 const future_section = document.getElementById("future_section")
 
 const header_elements = document.getElementsByClassName("header")
-const img_elements = document.getElementsByTagName("img")
+const card_box_elements = document.getElementsByClassName("card_box")
 const description_elements = document.getElementsByClassName("description")
+const deal_button_elements = document.getElementsByClassName("deal_button")
 
 
 
@@ -55,7 +56,7 @@ async function load_tarot_data() {
 
 function show_section(element) {
   element.style.transition = "1s"
-  element.style.visibility = "visible"
+  element.style.opacity = "100"
 }
 
 function transistion_elements_array(elements_array, ms_timeout) {
@@ -65,13 +66,15 @@ function transistion_elements_array(elements_array, ms_timeout) {
 }
 
 function transition_flow() {
-  setTimeout(show_section, 1000, past_section)
-  setTimeout(show_section, 2000, present_section)
-  setTimeout(show_section, 3000, future_section)
+  setTimeout(show_section, 2000, past_section)
+  setTimeout(show_section, 3000, present_section)
+  setTimeout(show_section, 4000, future_section)
   
-  transistion_elements_array(img_elements, 4000)
-  transistion_elements_array(header_elements, 5000)
-  transistion_elements_array(description_elements, 5000)
+  transistion_elements_array(card_box_elements, 5000)
+  transistion_elements_array(header_elements, 6000)
+  transistion_elements_array(description_elements, 6000)
+
+  transistion_elements_array(deal_button_elements, 8000)
 }
 
 load_tarot_data()
