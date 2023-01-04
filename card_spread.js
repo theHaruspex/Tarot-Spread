@@ -1,10 +1,17 @@
 const past_section = document.getElementById("past_section")
 const present_section = document.getElementById("present_section")
 const future_section = document.getElementById("future_section")
+
 const header_elements = document.getElementsByClassName("header")
 const card_box_elements = document.getElementsByClassName("card_box")
 const description_elements = document.getElementsByClassName("description")
 const deal_button_elements = document.getElementsByClassName("deal_button")
+
+const back_button = document.getElementById("back_button")
+const link_elements = document.getElementsByTagName("a")
+
+document.body.style.transition = "1s"
+
 
 
 function generate_random_integer(min, max) {
@@ -52,26 +59,31 @@ async function load_tarot_data() {
   load_section(future_section, future_tarot_data)
 }
 
-function show_section(element) {
+function reveal_element(element) {
   element.style.transition = "1s"
   element.style.opacity = "100"
 }
 
 function transistion_elements_array(elements_array, ms_timeout) {
   for (let i = 0; i < elements_array.length; i++) {
-    setTimeout(show_section, ms_timeout, elements_array[i])
+    setTimeout(reveal_element, ms_timeout, elements_array[i])
   }
 }
 
 function transition_flow() {
-  setTimeout(show_section, 2000, past_section)
-  setTimeout(show_section, 3000, present_section)
-  setTimeout(show_section, 4000, future_section)
+  setTimeout(reveal_element, 1000, back_button)
+  setTimeout(reveal_element, 2000, past_section)
+  setTimeout(reveal_element, 3000, present_section)
+  setTimeout(reveal_element, 4000, future_section)
   
   transistion_elements_array(card_box_elements, 5000)
-  transistion_elements_array(header_elements, 6000)
-  transistion_elements_array(description_elements, 6000)
-  transistion_elements_array(deal_button_elements, 8000)
+  transistion_elements_array(header_elements, 7000)
+  transistion_elements_array(description_elements, 7000)
+  transistion_elements_array(deal_button_elements, 9000)
+}
+
+function fade_page_out() {
+  document.body.style.opacity = "0"
 }
 
 load_tarot_data()

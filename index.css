@@ -1,15 +1,24 @@
 body {
-  background: linear-gradient(
-        rgba(0, 0, 0, 0.7),
-        rgba(0, 0, 0, 0.7)
-    ),
-    url("resources/backgrounds/21_index.jpeg");
+  opacity: 0;
+  background-color: black;
+}
+
+#page_wrapper {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  
+  background-image: linear-gradient(
+      rgba(0, 0, 0, 0.7),
+      rgba(0, 0, 0, 0.7)
+    ), url("resources/backgrounds/21_index.jpeg");
   background-size: cover;
   background-attachment: fixed;
   background-position: center 30%;
   background-repeat: no-repeat;
 }
-
 
 #logo {
   height: auto;
@@ -66,6 +75,7 @@ h2 a {
   text-decoration: none;  
   font-size: 2vw;
   letter-spacing: 1.5px;
+  transition: 0.3s
 
 } 
 

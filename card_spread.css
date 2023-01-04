@@ -13,7 +13,7 @@ img {
 	max-width: 100%;
 }
 
-.card_box, .header, .description, .deal_button, .section {
+.card_box, .header, .description, .deal_button, .section, #back_button {
   opacity: 0;
 }
 

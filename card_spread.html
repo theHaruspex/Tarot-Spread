@@ -8,10 +8,11 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Card Spread</title>
     <link rel="stylesheet" href="card_spread.css">
+    <script src="delay.js"></script>
   </head>
 
   <body>
-    <a href="."><img id=back_button src="resources/back_button.png"></a>
+    <a href="javascript:page_exit_flow('.')"><img id=back_button src="resources/back_button.png"></a>
 
     <div id=past_section class=section>
       <h2 class=header>Past</h2>
@@ -27,7 +28,7 @@
         <img id=present_img>
       </div>
       <p class=description id=present_description></p>
-      <a id=present_deal_button class=deal_button href="card_spread.html">Deal again.</a>
+        <a id=present_deal_button class=deal_button href="javascript:page_exit_flow('card_spread.html')">Deal again.</a>
     </div>
 
     <div id=future_section class=section>
@@ -37,7 +38,7 @@
       </div>
       <p class=description id=future_description></p>
       <div class=centering_div>
-        <a id=future_deal_button class=deal_button href="card_spread.html">Deal again.</a>
+        <a id=future_deal_button class=deal_button href="javascript:page_exit_flow('card_spread.html')">Deal again.</a>
       </div>
     </div>
       
