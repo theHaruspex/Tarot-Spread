@@ -2,28 +2,36 @@
 
 
 <html lang="en">
+
+  
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Three Card Tarot Spread</title>
-    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="css/index.css">
+    <script src="js/aux_functions.js"></script>
   </head>
 
-
+  
   <body>
-    <div id=page_wrapper></div>
-    <script src="index.js"></script>
-    <script src="delay.js"></script>
+
+    
+    <script>setTimeout(function() {document.body.style.opacity = "100"}, 250);</script>
+
+    
+    <div id=background_image></div>
+
+    
     <div class=wrapper>
       <h1>Three Card Tarot Spread</h1>
-      <h2>A small web application that deals three random Tarot cards from the major arcana. The images were produced using <a href=https://openai.com/dall-e-2/>DALLE•2</a>. </h2>  
+      <h2>A small web application that deals three random Tarot cards from the major arcana. The images were produced by <a href=https://openai.com/dall-e-2/>DALLE•2</a>, with the descriptions produced by <a href="https://openai.com/">GPT-3</a>.</h2>  
       <a id="deal_button" href="javascript:page_exit_flow('card_spread.html')">Deal.</a>
     </div>
 
-
-
     
     <img id=logo src="resources/derious_logo.png">
+
+    
   </body>
 </html>
